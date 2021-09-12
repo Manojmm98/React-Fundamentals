@@ -5,6 +5,7 @@ import UsestateTwo from './UseState/UsestateTwo';
 import UseStateObjects from './UseState/UseStateObjects';
 import UsestatewithArray from './UseState/UsestatewithArray';
 import UseEffectHook from './UseEffect/UseEffectHook';
+import CondictionalUseEffect from './UseEffect/CondictionalUseEffect';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         {/* <UsestateTwo/> */}
         {/* <UseStateObjects/> */}
         {/* <UsestatewithArray/> */}
-        <UseEffectHook/>
+        {/* <UseEffectHook/> */}
+        <CondictionalUseEffect/>
     </div>
   );
 }
