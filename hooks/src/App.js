@@ -12,6 +12,7 @@ import EffectCleanup from './UseEffect/EffectCleanup';
 import EffectWithdep3 from './UseEffect/EffectWithdep3';
 import FetchWithEffect from './UseEffect/FetchWithEffect';
 import FetchindID from './UseEffect/FetchindID';
+import FetchDatawithClick from './UseEffect/FetchDatawithClick';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         {/* <EffectCleanup/> */}
         {/* <EffectWithdep3/> */}
         {/* <FetchWithEffect/> */}
-        <FetchindID/>
+        {/* <FetchindID/> */}
+        <FetchDatawithClick/>
     </div>
   );
 }
