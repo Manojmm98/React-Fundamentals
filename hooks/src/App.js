@@ -6,6 +6,10 @@ import UseStateObjects from './UseState/UseStateObjects';
 import UsestatewithArray from './UseState/UsestatewithArray';
 import UseEffectHook from './UseEffect/UseEffectHook';
 import CondictionalUseEffect from './UseEffect/CondictionalUseEffect';
+import HookExample2 from './UseEffect/HookExample2';
+import EffectwithCleanup from './UseEffect/EffectwithCleanup';
+import EffectCleanup from './UseEffect/EffectCleanup';
+import EffectWithdep3 from './UseEffect/EffectWithdep3';
 
 function App() {
   return (
@@ -15,7 +19,11 @@ function App() {
         {/* <UseStateObjects/> */}
         {/* <UsestatewithArray/> */}
         {/* <UseEffectHook/> */}
-        <CondictionalUseEffect/>
+        {/* <CondictionalUseEffect/> */}
+        {/* <HookExample2/> */}
+        {/* <EffectwithCleanup/> */}
+        {/* <EffectCleanup/> */}
+        <EffectWithdep3/>
     </div>
   );
 }
