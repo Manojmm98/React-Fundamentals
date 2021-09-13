@@ -10,6 +10,8 @@ import HookExample2 from './UseEffect/HookExample2';
 import EffectwithCleanup from './UseEffect/EffectwithCleanup';
 import EffectCleanup from './UseEffect/EffectCleanup';
 import EffectWithdep3 from './UseEffect/EffectWithdep3';
+import FetchWithEffect from './UseEffect/FetchWithEffect';
+import FetchindID from './UseEffect/FetchindID';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
         {/* <HookExample2/> */}
         {/* <EffectwithCleanup/> */}
         {/* <EffectCleanup/> */}
-        <EffectWithdep3/>
+        {/* <EffectWithdep3/> */}
+        {/* <FetchWithEffect/> */}
+        <FetchindID/>
     </div>
   );
 }
