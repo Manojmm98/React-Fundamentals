@@ -23,3 +23,4 @@ class Child extends Parent{
 const child = new Child();
 child.getPName()
 child.getCName()
+

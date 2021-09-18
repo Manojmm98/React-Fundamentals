@@ -13,6 +13,26 @@ import EffectWithdep3 from './UseEffect/EffectWithdep3';
 import FetchWithEffect from './UseEffect/FetchWithEffect';
 import FetchindID from './UseEffect/FetchindID';
 import FetchDatawithClick from './UseEffect/FetchDatawithClick';
+import Context1 from './UseContext/Context1';
+import Context2 from './UseContext/Context2';
+import UseReducer from './UseReducer/UseReducer';
+
+// there are 3 steps of creating context variable 
+// 1--> create context variable and export it
+// 2--> wrap the component inside provider
+// 3--> import the context component in the desired file and wrap inside useContext and use it 
+
+// // create  two context  variable 
+// export const Context = React.createContext();
+
+// export const ChannelContext= React.createContext();
+
+
+//  export const usercontext1 = React.createContext();
+
+// export const usercontext2 = React.createContext();
+
+
 
 function App() {
   return (
@@ -29,7 +49,21 @@ function App() {
         {/* <EffectWithdep3/> */}
         {/* <FetchWithEffect/> */}
         {/* <FetchindID/> */}
-        <FetchDatawithClick/>
+        {/* <FetchDatawithClick/> */}
+      
+        {/* <Context.Provider value={'Manoj'}>
+         <ChannelContext.Provider value={'Mishra'}>
+           <Context1/>
+        </ChannelContext.Provider> 
+        </Context.Provider> */}
+
+        <UseReducer/>
+
+       
+
+
+
+
     </div>
   );
 }
