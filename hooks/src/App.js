@@ -16,6 +16,11 @@ import FetchDatawithClick from './UseEffect/FetchDatawithClick';
 import Context1 from './UseContext/Context1';
 import Context2 from './UseContext/Context2';
 import UseReducer from './UseReducer/UseReducer';
+import UseReducerwithObject from './UseReducer/UseReducerwithObject';
+import UseReducerWithMultipleObj from './UseReducer/UseReducerWithMultipleObj';
+import MultipleReducer from './UseReducer/MultipleReducer';
+import FetchDataWithUseState from './UseReducer/FetchingDataWith-Reducer/FetchDataWithUseState';
+import FretchWithUseREducer from './UseReducer/FetchingDataWith-Reducer/FretchWithUseREducer';
 
 // there are 3 steps of creating context variable 
 // 1--> create context variable and export it
@@ -57,7 +62,15 @@ function App() {
         </ChannelContext.Provider> 
         </Context.Provider> */}
 
-        <UseReducer/>
+        {/* <UseReducer/> */}
+
+        {/* <UseReducerwithObject/> */}
+        {/* <UseReducerWithMultipleObj/> */}
+
+        {/* <MultipleReducer/> */}
+        {/* <FetchDataWithUseState/> */}
+
+        <FretchWithUseREducer/>
 
        
 
