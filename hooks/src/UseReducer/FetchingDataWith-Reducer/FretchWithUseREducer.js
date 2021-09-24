@@ -39,6 +39,7 @@ const reducer =(state,action)=>{
 
 }
 
+// always define useeffect inside the function because the effect arises after action done
 function FretchWithUseREducer() {
     // define usereducer
   const [state,dispatch] = useReducer(reducer,intialstate);
