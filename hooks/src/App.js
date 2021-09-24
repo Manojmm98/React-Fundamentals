@@ -23,6 +23,8 @@ import FetchDataWithUseState from './UseReducer/FetchingDataWith-Reducer/FetchDa
 import FretchWithUseREducer from './UseReducer/FetchingDataWith-Reducer/FretchWithUseREducer';
 import UsecallBack from './UseCallBack/UsecallBack';
 import UseMemo from './UseMemo/UseMemo';
+import FocusInput from './UseRef/FocusInput';
+import RefInsideComponent from './UseRef/RefInsideComponent';
 
 // there are 3 steps of creating context variable 
 // 1--> create context variable and export it
@@ -75,7 +77,10 @@ function App() {
         {/* <FretchWithUseREducer/> */}
 
         {/* <UsecallBack/> */}
-        <UseMemo/>
+        {/* <UseMemo/> */}
+        {/* <FocusInput/> */}
+
+        <RefInsideComponent/>
 
        
 
