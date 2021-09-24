@@ -21,6 +21,8 @@ import UseReducerWithMultipleObj from './UseReducer/UseReducerWithMultipleObj';
 import MultipleReducer from './UseReducer/MultipleReducer';
 import FetchDataWithUseState from './UseReducer/FetchingDataWith-Reducer/FetchDataWithUseState';
 import FretchWithUseREducer from './UseReducer/FetchingDataWith-Reducer/FretchWithUseREducer';
+import UsecallBack from './UseCallBack/UsecallBack';
+import UseMemo from './UseMemo/UseMemo';
 
 // there are 3 steps of creating context variable 
 // 1--> create context variable and export it
@@ -70,7 +72,10 @@ function App() {
         {/* <MultipleReducer/> */}
         {/* <FetchDataWithUseState/> */}
 
-        <FretchWithUseREducer/>
+        {/* <FretchWithUseREducer/> */}
+
+        {/* <UsecallBack/> */}
+        <UseMemo/>
 
        
 
