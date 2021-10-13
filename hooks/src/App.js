@@ -25,6 +25,8 @@ import UsecallBack from './UseCallBack/UsecallBack';
 import UseMemo from './UseMemo/UseMemo';
 import FocusInput from './UseRef/FocusInput';
 import RefInsideComponent from './UseRef/RefInsideComponent';
+import Example1 from './Custom-Hooks/Customhook';
+import Customhook from './Custom-Hooks/Customhook';
 
 // there are 3 steps of creating context variable 
 // 1--> create context variable and export it
@@ -80,7 +82,9 @@ function App() {
         {/* <UseMemo/> */}
         {/* <FocusInput/> */}
 
-        <RefInsideComponent/>
+        {/* <RefInsideComponent/> */}
+        <Customhook/>
+      
 
        
 
