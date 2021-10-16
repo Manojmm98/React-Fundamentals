@@ -1,25 +1,25 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import provider from  and wrap div component with provider
+import {Provider} from 'react-redux'
+// import STORE
+import Store from './redux/Store'
+
+import CakeStore from './Components/CakeStore';
 
 function App() {
   return (
+    // wrap the div component inside provider and how provider will know about store so provide store as a props provider component
+    <Provider store={Store} >
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CakeStore/>
     </div>
-  );
+    </Provider>
+
+  )
 }
+
+
 
 export default App;
