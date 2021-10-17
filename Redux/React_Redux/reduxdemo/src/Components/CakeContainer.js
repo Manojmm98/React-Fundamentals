@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import {buyCake} from '../redux/Action'
 
 
-function CakeStore(props) {
+function CakeContainer(props) {
     return (
         <div>
             <h2>No of Cakes-{props.numOfCakes}</h2>
@@ -15,7 +15,7 @@ function CakeStore(props) {
 
 const mapStateToProps = state=>{
     return {
-        numOfCakes:state.numOfCakes
+        numOfCakes:state.cake.numOfCakes
     }
   }
  
@@ -25,4 +25,4 @@ const mapDispatchToProps = dispatch=>{
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CakeStore)
+export default connect(mapStateToProps, mapDispatchToProps)(CakeContainer)
